@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завдання - StudyFlow</title>
+</head>
+<body>
+
+<header>
+    <h1>StudyFlow</h1>
+    <nav>
+        <a href="index.html">Головна</a>
+        <a href="tasks.html">Завдання</a>
+        <a href="calendar.html">Календар</a>
+        <a href="about.html">Про сервіс</a>
+        <a href="contacts.html">Контакти</a>
+    </nav>
+</header>
+
+<main>
+    <h2>Мої завдання</h2>
+    <section>
+        <h3>Додати нове завдання</h3>
+        <form>
+            <p>
+                <label for="name">Назва завдання:</label>
+                <input type="text" id="name" name="name" required>
+            </p>
+
+            <p>
+                <label for="subject">Предмет:</label>
+                <input type="text" id="subject" name="subject" required>
+            </p>
+
+            <p>
+                <label for="date">Дедлайн:</label>
+                <input type="date" id="date" name="date" required>
+            </p>
+
+            <p>
+                <label for="priority">Пріоритет:</label>
+                <select id="priority" name="priority">
+                    <option value="normal">Звичайний</option>
+                    <option value="high">Високий</option>
+                </select>
+            </p>
+
+            <button type="submit">Додати</button>
+        </form>
+    </section>
+
+    <section>
+        <h3>Список завдань (демонстрація)</h3>
+
+        <ul>
+            <li>
+                <strong>Лабораторна Робота №2</strong>
+                <p>Предмет: ВОРПЗ</p>
+                <p>Дедлайн: 01.12.2026</p>
+                <p>Пріоритет: Високий</p>
+                <p>Статус: Не виконано</p>
+            </li>
+
+            <li>
+                <strong>Підготовка до КР</strong>
+                <p>Предмет: Теорія прийняття рішень</p>
+                <p>Дедлайн: 27.11.2026</p>
+                <p>Пріоритет: Звичайний</p>
+                <p>Статус: Не виконано</p>
+            </li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>StudyFlow 2026</p>
+</footer>
+
+</body>
+</html>
